@@ -21,7 +21,7 @@
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="aqua-graphcompare" Version="1.2.2" />
-      <PackageReference Include="EdFi.Suite3.Common" Version="5.4.10" />
+      <PackageReference Include="EdFi.Suite3.Common" Version="5.4.90" />
       <PackageReference Include="EdFi.Suite3.OdsApi.TestSdk" Version="5.4.38" />
       <PackageReference Include="FubarCoder.RestSharp.Portable.Core" Version="4.0.8" />
       <PackageReference Include="FubarCoder.RestSharp.Portable.HttpClient" Version="4.0.8" />
@@ -30,7 +30,7 @@
       <PackageReference Include="Microsoft.Extensions.Primitives" Version="6.0.0" />
       <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
       <PackageReference Include="Moq" Version="4.16.1" />
-      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
       <PackageReference Include="NUnit" Version="3.13.2" />
       <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
       <PackageReference Include="Shouldly" Version="4.0.3" />
