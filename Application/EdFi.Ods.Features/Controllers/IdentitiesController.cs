@@ -215,7 +215,16 @@ namespace EdFi.Ods.Features.Controllers
 
                 if ((_identitySubsystem.IdentityServiceCapabilities & IdentityServiceCapabilities.Search) != 0)
                 {
-                    return Ok((await _identitySubsystem.Search(criteria)).Data);
+                    //return Ok((await _identitySubsystem.Search(criteria)).Data);
+
+                    //SK Delaware- return error messages insyncronous call
+                    var result = (await _identitySubsystem.Search(criteria));
+                    if (result.Errors.Any())
+                    {
+                        return BadRequest(result.Errors);
+                    }
+
+                    return Ok(result);
                 }
 
                 return NotImplemented();
