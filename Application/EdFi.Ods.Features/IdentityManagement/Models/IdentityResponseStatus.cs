@@ -15,5 +15,6 @@ namespace EdFi.Ods.Features.IdentityManagement.Models
         public IdentityStatusCode StatusCode { get; set; }
 
         public IEnumerable<IdentityError> Errors { get; set; }
+
     }
 }

@@ -5,24 +5,30 @@ namespace EdFi.Ods.Features.IdentityManagement.Models
 {
     public class IdentityResponse : Expando
     {
-        public string UniqueId { get; set; }
+        public  string UniqueId { get; set; }
 
         public decimal Score { get; set; }
 
         public string LastSurname { get; set; }
 
-        public string FirstName { get; set; }
+        public  string FirstName { get; set; }
 
-        public string MiddleName { get; set; }
+        public  string MiddleName { get; set; }
 
-        public string GenerationCodeSuffix { get; set; }
+        //public  string GenerationCodeSuffix { get; set; }
 
-        public string SexType { get; set; }
+        public  string SexType { get; set; }
 
-        public DateTime? BirthDate { get; set; }
+        public  DateTime? BirthDate { get; set; }
 
-        public int? BirthOrder { get; set; }
+        //public int? BirthOrder { get; set; }
 
-        public Location BirthLocation { get; set; }
+        //public Location BirthLocation { get; set; }
+
+        //Delaware Specific:
+
+        public  Int32? CurrentDistrictCode { get; set; }
+
+        public  Int32? CurrentSchoolCode { get; set; }
     }
 }

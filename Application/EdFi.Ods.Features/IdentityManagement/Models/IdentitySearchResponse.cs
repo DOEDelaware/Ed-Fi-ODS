@@ -4,6 +4,8 @@
     {
         public SearchResponseStatus Status { get; set; }
 
+        public string Token { get; set; }
+
         public IdentitySearchResponses[] SearchResponses { get; set; }
     }
 }

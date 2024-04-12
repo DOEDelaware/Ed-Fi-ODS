@@ -27,10 +27,10 @@ namespace EdFi.Ods.Features.Container.Modules
               .As<IApplicationModelConvention>()
               .SingleInstance();
 
-            builder.RegisterType<UnimplementedIdentityService>()
-               .As<IIdentityService>()
-               .As<IIdentityServiceAsync>()
-               .SingleInstance();
+            //builder.RegisterType<UnimplementedIdentityService>()
+            //   .As<IIdentityService>()
+            //   .As<IIdentityServiceAsync>()
+            //   .SingleInstance();
         }
     }
 }
