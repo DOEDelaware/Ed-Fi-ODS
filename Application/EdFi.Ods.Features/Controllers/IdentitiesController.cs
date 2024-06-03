@@ -114,8 +114,9 @@ namespace EdFi.Ods.Features.Controllers
                 switch (result.StatusCode)
                 {
                     case IdentityStatusCode.Success:
-                        var route = Url.Link("IdentitiesGetById", new { id = result.Data });
-                        return Created(new Uri(route), result.Data);
+                        //var route = Url.Link("IdentitiesGetById", new { id = result.Data });
+                        //return Created(new Uri(route), result.Data);
+                        return new CreatedResult("", result.Data);  //sk 2/20/2024  Url.Link did not work for YearSpecific; wrote Ed-Fi sucess team ticket 00002543
                     case IdentityStatusCode.NotFound:
                         return NotFound(new NotFoundException());
                     case IdentityStatusCode.InvalidProperties:
