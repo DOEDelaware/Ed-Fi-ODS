@@ -31,6 +31,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <PackageReference Include="log4net" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
     <PackageReference Include="NUnit3TestAdapter">
       <PrivateAssets>all</PrivateAssets>

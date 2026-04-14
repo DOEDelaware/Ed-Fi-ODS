@@ -53,6 +53,7 @@
   </Target>
   <ItemGroup>
     <PackageReference Include="ApprovalTests" />
+    <PackageReference Include="log4net" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
     <PackageReference Include="NUnit" />
     <PackageReference Include="NUnit3TestAdapter">

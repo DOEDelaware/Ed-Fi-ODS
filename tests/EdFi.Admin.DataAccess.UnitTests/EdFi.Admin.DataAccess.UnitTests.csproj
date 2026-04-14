@@ -28,9 +28,10 @@
   </Choose>
   <ItemGroup>
     <PackageReference Include="FakeItEasy" />
+    <PackageReference Include="log4net" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
     <PackageReference Include="NUnit" />
-    <PackageReference Include="NUnit3TestAdapter" >
+    <PackageReference Include="NUnit3TestAdapter">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
