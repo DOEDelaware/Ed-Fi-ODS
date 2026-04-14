@@ -18,6 +18,7 @@
     <EmbeddedResource Include="Utils\Resources\IAmAResource.txt" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="log4net" />
     <PackageReference Include="Microsoft.Data.SqlClient" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
     <PackageReference Include="Microsoft.Identity.Client" />
