@@ -72,7 +72,7 @@ param(
     [string]
     $Copyright = "Copyright @ " + $((Get-Date).year) + " Ed-Fi Alliance, LLC and Contributors",
 
-    [ValidateSet('4.0.0', '5.2.0', '6.0.0')]
+    [ValidateSet('4.0.0', '5.2.0', '6.1.0')]
     [string]  $StandardVersion
 
 )
@@ -271,7 +271,7 @@ function InstallCredentialHandler {
 
     $downloadPath = Join-Path ([IO.Path]::GetTempPath()) 'cred-provider.zip'
     
-    $credProviderUrl = 'https://github.com/microsoft/artifacts-credprovider/releases/download/v1.4.1/Microsoft.Net6.NuGet.CredentialProvider.zip'
+    $credProviderUrl = 'https://github.com/microsoft/artifacts-credprovider/releases/download/v2.0.1/Microsoft.Net8.NuGet.CredentialProvider.zip'
     Write-Host "Downloading artifacts-credprovider from $credProviderUrl ..."
     $webClient = New-Object System.Net.WebClient
     $webClient.DownloadFile($credProviderUrl, $downloadPath)

@@ -35,11 +35,11 @@ namespace EdFi.Ods.CodeGen.Tests.IntegrationTests.Providers
             {
                 "4.0.0",
                 "5.2.0",
-                "6.0.0"
+                "6.1.0"
             };
         }
 
-        [TestFixtureSource(nameof(base.StandardVersions))]
+        [TestFixtureSource(nameof(StandardVersions))]
         public class When_getting_assembly_data_from_all_providers_with_no_extensions : MultipleStandardVersionsFixtureBase
         {
             private IEnumerable<IAssemblyDataProvider> _assemblyDataProviders;
@@ -72,7 +72,7 @@ namespace EdFi.Ods.CodeGen.Tests.IntegrationTests.Providers
             }
         }
 
-        [TestFixtureSource(nameof(base.StandardVersions))]
+        [TestFixtureSource(nameof(StandardVersions))]
         public class When_getting_assembly_data_from_all_providers_with_extensions : MultipleStandardVersionsFixtureBase
         {
             private IEnumerable<IAssemblyDataProvider> _assemblyDataProviders;
@@ -121,7 +121,7 @@ namespace EdFi.Ods.CodeGen.Tests.IntegrationTests.Providers
             }
         }
 
-        [TestFixtureSource(nameof(base.StandardVersions))]
+        [TestFixtureSource(nameof(StandardVersions))]
         public class When_getting_assembly_data_with_no_extensions : MultipleStandardVersionsFixtureBase
         {
             private IAssemblyDataProvider _assemblyDataProvider;
@@ -156,7 +156,7 @@ namespace EdFi.Ods.CodeGen.Tests.IntegrationTests.Providers
             }
         }
 
-        [TestFixtureSource(nameof(base.StandardVersions))]
+        [TestFixtureSource(nameof(StandardVersions))]
         public class When_getting_assembly_data_with_extensions : MultipleStandardVersionsFixtureBase
         {
             private IAssemblyDataProvider _assemblyDataProvider;
