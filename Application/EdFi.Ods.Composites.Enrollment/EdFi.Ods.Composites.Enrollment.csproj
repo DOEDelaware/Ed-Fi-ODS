@@ -22,6 +22,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="log4net" />
+    <PackageReference Include="MessagePack" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Ed-Fi-ODS\Application\EdFi.Ods.Common\EdFi.Ods.Common.csproj" />

@@ -36,6 +36,7 @@
     <PackageReference Include="CompareNETObjects" />
     <PackageReference Include="FakeItEasy" />
     <PackageReference Include="log4net" />
+    <PackageReference Include="MessagePack" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
     <PackageReference Include="NUnit3TestAdapter">
       <PrivateAssets>all</PrivateAssets>

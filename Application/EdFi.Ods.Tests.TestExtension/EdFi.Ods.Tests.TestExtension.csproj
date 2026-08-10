@@ -16,6 +16,7 @@
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" />
     <PackageReference Include="log4net" />
+    <PackageReference Include="MessagePack" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Marker_EdFi_Ods_Test_TestExtension.cs">

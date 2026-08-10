@@ -27,6 +27,7 @@
   </Choose>
   <ItemGroup>
     <PackageReference Include="Dapper" />
+    <PackageReference Include="MessagePack" />
     <PackageReference Include="Npgsql" />
     <PackageReference Include="log4net" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />

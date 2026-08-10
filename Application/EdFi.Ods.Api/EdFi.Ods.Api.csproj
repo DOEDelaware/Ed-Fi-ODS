@@ -37,6 +37,7 @@
     <PackageReference Include="AspNetCore.HealthChecks.SqlServer" />
     <PackageReference Include="FluentValidation" />
     <PackageReference Include="log4net" />
+    <PackageReference Include="MessagePack" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" />
 	<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
