@@ -12,5 +12,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="log4net" />
+    <PackageReference Include="MessagePack" />
   </ItemGroup>
 </Project>
